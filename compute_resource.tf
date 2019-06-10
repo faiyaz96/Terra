@@ -18,7 +18,7 @@ resource "google_compute_instance" "default" {
         }
         connection = {
                 type = "ssh"
-                user = "muni4475"
+                user = "faiyaztraining"
                 private_key = "${file("~/.ssh/id_rsa")}"
         }
 }
